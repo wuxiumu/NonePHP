@@ -1,0 +1,25 @@
+{
+  "name": "deli/none-php",
+  "description": "sample api frame work for yourself",
+  "authors": [
+    {
+      "name": "deli",
+      "email": "varobj@varobj.com"
+    }
+  ],
+  "require": {
+    "php": "^7.1",
+    "ext-json": "*",
+    "ext-redis": "*",
+    "ext-pdo": "*",
+    "ext-openssl": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "NonePHP\\": "src/"
+    },
+    "files": [
+      "src/function.php"
+    ]
+  }
+}
